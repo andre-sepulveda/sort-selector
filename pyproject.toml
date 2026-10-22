@@ -1,0 +1,9 @@
+[project]
+name = "sort-selector"
+version = "0.1.0"
+description = "Ordenação adaptativa: escolhe o método de ordenação mais adequado olhando os dados."
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

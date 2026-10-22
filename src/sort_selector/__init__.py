@@ -1,0 +1,1 @@
+"""sort-selector: ordenação adaptativa."""
