@@ -4,25 +4,6 @@ Projeto da disciplina Estruturas de Dados Avançadas: um ordenador que **olha os
 
 Os métodos reunidos são inserção, intercalação, rápida (pivô aleatório), híbrida, contagem e base. A função `escolher(v)` decide qual usar, e `ordenar(v)` chama `escolher` e executa.
 
-## Estrutura
-
-```
-sort-selector/
-├── README.md
-├── RELATORIO.md              # entregável: tabela, regras, custo, erro
-├── pyproject.toml            # configuração do pytest
-├── requirements.txt
-├── src/sort_selector/
-│   ├── __init__.py
-│   ├── metodos.py            # os seis métodos de ordenação
-│   ├── escolhedor.py         # escolher(v) e ordenar(v)
-│   └── cenarios.py           # geradores dos quatro cenários
-├── medicao/
-│   └── benchmark.py          # roda as medições e imprime a tabela
-└── tests/
-    └── test_ordenacao.py
-```
-
 ## Instalação
 
 Requer Python 3.10 ou superior.
@@ -46,12 +27,3 @@ pytest
 ```bash
 python medicao/benchmark.py
 ```
-
-## Status
-
-- [ ] Métodos de ordenação
-- [ ] Cenários
-- [ ] `escolher` e `ordenar`
-- [ ] Testes
-- [ ] Medições
-- [ ] `RELATORIO.md`
